@@ -1,0 +1,445 @@
+<!DOCTYPE html>
+<html lang="">
+    <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    body {
+        background: url(images/glowing-white-snowflake-particles-falling-down-against-a-light-teal-blue-gradient-background_s5r-sa3c_thumbnail-full01.png);
+    }
+
+    h1,
+    h2 {
+        text-align: center;
+    }
+
+    h1 {
+        font-size: 25px;
+    }
+
+    h2 {
+        font-size: 20px;
+    }
+
+    header {
+        margin-top: -22px;
+    }
+
+    .starters {
+        background-color: cadetblue;
+        text-align: center;
+        color: aliceblue;
+        width: 100%;
+        height: 30px;
+        margin-bottom: 10px;
+    }
+
+    img {
+        width: 100%;
+    }
+
+    @media only screen and (min-width:30em) {
+        section {
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+        }
+        div {
+            border: 20px;
+            margin: 20px;
+        }
+        #txt1,
+        #txt2,
+        #txt3,
+        #txt4,
+        #txt5,
+        #txt6,
+        #txt7,
+        #txt8,
+        #txt9,
+        #txt10,
+        #txt11,
+        #txt12 {
+            display: none;
+        }
+        .show {
+            display: block;
+        }
+    }
+</style>
+
+<body>
+    <header><br>
+        <h1> Filuta Restaurant</h1>
+        <h2>Menu</h2>
+
+    </header>
+    <div class="starters">
+        <h3>Starters</h3>
+    </div>
+    <section>
+        <div>
+            <img onclick="functionOne()" class="img1" alt="Russian Ringbread" src="images/1.jpg">
+            <p><span style="margin-left: 2em"></span> Russisk ringbrød af Karapatisk mel</p>
+            <p id="txt1"> Russisk ringbrød efter en klassisk opskrift fra Karapatien. Dejen blandes koldhæver 30 dage, inde brødet bages over bål. Meget sprødt, godt med Karapatisk bjerggedsmør.</p>
+            <div class="box">
+                <button type="button" name="button1">sold out</button>
+                <button type="button" name="button2">discounted</button>
+                <button type="button" name="button3">plus alcohol</button>
+                <button type="button" name="button4">allergens</button>
+
+            </div>
+        </div>
+        <div> <img onclick="functionTwo()" class="img2" alt="Cabanossi with beetroot cream" src="images/2.jpg">
+            <p><span style="margin-left: 2em"></span> Cabanossi med rødbedecreme og løg</p>
+            <p id="txt2"> Cabanossi med rødbedecreme og creme er egentlig en forret, men kammerat Vladimir elskede denne ret så højt, at han forbød restauranter i Krigien at sælge det som andet end en hovedret. Vi anbefaler det dog som forret, inden en god Bortsjs. Skylles helst ned med vodka.</p>
+            <div class="box">
+                <button type="button" name="button1">sold out</button>
+                <button type="button" name="button2">discounted</button>
+                <button type="button" name="button3">plus alcohol</button>
+                <button type="button" name="button4">allergens</button>
+
+            </div>
+        </div>
+        <div> <img onclick="functionThree()" class="img3" alt="Caviar bruschetta" src="images/3.jpg">
+            <p><span style="margin-left: 2em"></span> Brushcetta med russisk Caviar</p>
+            <p id="txt3"> Cabanossi med rødbedecreme og creme er egentlig en forret, men kammerat Vladimir elskede denne ret så højt, at han forbød restauranter i Krigien at sælge det som andet end en hovedret. Vi anbefaler det dog som forret, inden en god Bortsjs. Skylles helst ned med vodka.</p>
+            <div class="box">
+                <button type="button" name="button1">sold out</button>
+                <button type="button" name="button2">discounted</button>
+                <button type="button" name="button3">plus alcohol</button>
+                <button type="button" name="button4">allergens</button>
+
+            </div>
+        </div>
+    </section>
+
+    <div class="starters">
+        <h3>Main</h3>
+    </div>
+
+    <section>
+        <div> <img onclick="functionFour()" class="img4" alt="East Siberian cabbage soup" src="images/4.jpg">
+            <p><span style="margin-left: 2em"></span>East Siberian cabbage soup</p>
+            <p id="txt4">Denne lækre suppe består af 7 forskellige slags kål: Hvidkål, grønkål, brunkål, spidskål, kabanossikål, sibirisk kål og kålrabi. Dertil en masse Voda (vand) og krydderier fra Østsibirien.</p>
+
+            <div class="box">
+                <button type="button" name="button1">sold out</button>
+                <button type="button" name="button2">discounted</button>
+                <button type="button" name="button3">plus alcohol</button>
+                <button type="button" name="button4">allergens</button>
+
+            </div>
+        </div>
+        <div> <img onclick="functionFive()" class="img5" alt="Steak with vegetables" src="images/5.jpg">
+            <p><span style="margin-left: 2em"></span>Diplomat-bøf med grønt </p>
+            <p id="txt5">Diplomatiet har haft mange udfordringer i USSR. Derfor blev der sørget godt for dem, og som nogen af de få, fik diplomaterne mange bøffer under den kolde krig. Diplomat-bøffen med grillede grøntsager og koldpresset olie er af ypperste kvalitet - kødet kommer fra udsultede ungkalve i Viktoriagrad.</p>
+
+            <div class="box">
+                <button type="button" name="button1">sold out</button>
+                <button type="button" name="button2">discounted</button>
+                <button type="button" name="button3">plus alcohol</button>
+                <button type="button" name="button4">allergens</button>
+
+            </div>
+        </div>
+        <div> <img onclick="functionSix()" class="img6" alt="Dynryp" src="images/6.jpg">
+            <p><span style="margin-left: 2em"></span>Dynrup - Russisk bulgur med skovsvampe </p>
+<p id="txt6">Denne lækre suppe består af 7 forskellige slags kål: Hvidkål, grønkål, brunkål, spidskål, kabanossikål, sibirisk kål og kålrabi. Dertil en masse Voda (vand) og krydderier fra Østsibirien.</p>
+            <div class="box">
+                <button type="button" name="button1">sold out</button>
+                <button type="button" name="button2">discounted</button>
+                <button type="button" name="button3">plus alcohol</button>
+                <button type="button" name="button4">allergens</button>
+
+            </div>
+        </div>
+    </section>
+    <div class="starters">
+        <h3>Desserts</h3>
+    </div>
+    <section>
+        <div> <img onclick="functionSeven()" class="img7" alt="Pancakes with Caviar" src="images/7.jpg">
+            <p><span style="margin-left: 2em"></span>Brændte pandekager med Bordyriske ørne-kaviar </p>
+<p id="txt7">Brændte pandekager med Bordyriske ørne-kaviar. Ørne laver kaviar på størrelse med peberkorn. Og de smager af kaviar. Ikke peber. Lækkert.</p>
+            <div class="box">
+                <button type="button" name="button1">sold out</button>
+                <button type="button" name="button2">discounted</button>
+                <button type="button" name="button3">plus alcohol</button>
+                <button type="button" name="button4">allergens</button>
+
+            </div>
+        </div>
+
+
+        <div> <img onclick="functionEight()" class="img8" alt="Kyrgyzstan roulade" src="images/8.jpg">
+            <p><span style="margin-left: 2em"></span>Kirgisisk roulade bestående af nødder og rødkål</p>
+<p id="txt8">I det nordlige Kirgisistan består en væsentlig del af kostpyramiden af forskellige kålvarianter og nødder. Mama Dushku fandt på denne ret, som en hyldest til det røde flag med hammer og segl.</p>
+            <div class="box">
+                <button type="button" name="button1">sold out</button>
+                <button type="button" name="button2">discounted</button>
+                <button type="button" name="button3">plus alcohol</button>
+                <button type="button" name="button4">allergens</button>
+
+            </div>
+        </div>
+
+
+        <div> <img onclick="functionNine()" class="img9" alt="Pavlova with melon" src="images/9.jpg">
+            <p><span style="margin-left: 2em">Pavlova - russiske pandekager - i honningmelon fra Nordkorea</span>
+            </p>
+<p id="txt9"></p>
+            <div class="box">
+                <button type="button" name="button1">sold out</button>
+                <button type="button" name="button2">discounted</button>
+                <button type="button" name="button3">plus alcohol</button>
+                <button type="button" name="button4">allergens</button>
+
+            </div>
+            </div>
+
+
+
+    </section>
+
+    <div class="starters">
+        <h3>Drinks</h3>
+    </div>
+    <section>
+        <div> <img onclick="functionTen()" class="img10" alt="Bochkarev beer" src="images/10.jpg">
+            <p><span style="margin-left: 2em">En halv liter Bochkarev fadøl</span>
+            </p>
+<p id="txt10">Denne lækre suppe består af 7 forskellige slags kål: Hvidkål, grønkål, brunkål, spidskål, kabanossikål, sibirisk kål og kålrabi. Dertil en masse Voda (vand) og krydderier fra Østsibirien.</p>
+            <div class="box">
+                <button type="button" name="button1">sold out</button>
+                <button type="button" name="button2">discounted</button>
+                <button type="button" name="button3">plus alcohol</button>
+                <button type="button" name="button4">allergens</button>
+
+            </div>
+        </div>
+
+
+
+        <div> <img onclick="functionEleven()" class="img11" alt="Voda-vodka" src="images/11.jpg">
+            <p><span style="margin-left: 2em"></span>Voda-vodka - vodka i rigelige mængder
+            </p>
+<p id="txt11">Denne lækre suppe består af 7 forskellige slags kål: Hvidkål, grønkål, brunkål, spidskål, kabanossikål, sibirisk kål og kålrabi. Dertil en masse Voda (vand) og krydderier fra Østsibirien.</p>
+            <div class="box">
+                <button type="button" name="button1">sold out</button>
+                <button type="button" name="button2">discounted</button>
+                <button type="button" name="button3">plus alcohol</button>
+                <button type="button" name="button4">allergens</button>
+
+            </div>
+        </div>
+
+
+
+
+        <div> <img onclick="functionTwelve()" class="img12" alt="Red wine, glas" src="images/12.jpg">
+            <p><span style="margin-left: 2em">Et glas god Rødvin fra det tidligere USSR</span>
+            </p>
+<p id="txt12">Denne lækre suppe består af 7 forskellige slags kål: Hvidkål, grønkål, brunkål, spidskål, kabanossikål, sibirisk kål og kålrabi. Dertil en masse Voda (vand) og krydderier fra Østsibirien.</p>
+            <div class="box">
+                <button type="button" name="button1">sold out</button>
+                <button type="button" name="button2">discounted</button>
+                <button type="button" name="button3">plus alcohol</button>
+                <button type="button" name="button4">allergens</button>
+
+            </div>
+        </div>
+
+    </section>
+    <div class="starters">
+        <h3>Sideorders</h3>
+    </div>
+
+    <section>
+        <div> <img alt="Russian Ring Bread" src="images/13.jpg">
+            <p><span style="margin-left: 2em"></span>Russisk ringbrød bagt med det fineste gryzni-mel fra Gryzkigistan
+            </p>
+
+            <div class="box">
+                <button type="button" name="button1">sold out</button>
+                <button type="button" name="button2">discounted</button>
+                <button type="button" name="button3">plus alcohol</button>
+                <button type="button" name="button4">allergens</button>
+
+            </div>
+        </div>
+
+        <div> <img alt="Murman farmer buns" src="images/14.jpg">
+            <p><span style="margin-left: 2em"></span>Murmanske bondeboller bagt i stenovn
+            </p>
+
+            <div class="box">
+                <button type="button" name="button1">sold out</button>
+                <button type="button" name="button2">discounted</button>
+                <button type="button" name="button3">plus alcohol</button>
+                <button type="button" name="button4">allergens</button>
+
+            </div>
+        </div>
+
+
+        <div> <img alt="Russisk salat" src="images/15.jpg">
+            <p><span style="margin-left: 2em"></span>Russisk salat med ærter, bønner, gulerødder og mayonnaise fra Volgograd
+            </p>
+
+            <div class="box">
+                <button type="button" name="button1">sold out</button>
+                <button type="button" name="button2">discounted</button>
+                <button type="button" name="button3">plus alcohol</button>
+                <button type="button" name="button4">allergens</button>
+
+            </div>
+        </div>
+
+    </section>
+
+</body>
+
+<script>
+    var txt1 = document.getElementById("txt1");
+    var txt2 = document.getElementById("txt2");
+    var txt3 = document.getElementById("txt3");
+    var txt4 = document.getElementById("txt4");
+    var txt5 = document.getElementById("txt5");
+    var txt6 = document.getElementById("txt6");
+    var txt7 = document.getElementById("txt7");
+    var txt8 = document.getElementById("txt8");
+    var txt9 = document.getElementById("txt9");
+    var txt10 = document.getElementById("txt10");
+    var txt11 = document.getElementById("txt11");
+    var txt12 = document.getElementById("txt12");
+
+
+
+    function functionOne() {
+
+        if (txt1.style.display === "none") {
+            txt1.style.display = "block";
+        } else {
+            txt1.style.display = "none";
+        }
+    }
+
+    function functionTwo() {
+
+        if (txt2.style.display === "none") {
+            txt2.style.display = "block";
+        } else {
+            txt2.style.display = "none";
+        }
+    }
+
+    function functionThree() {
+
+        if (txt3.style.display === "none") {
+            txt3.style.display = "block";
+        } else {
+            txt3.style.display = "none";
+        }
+
+    }
+
+    function functionFour() {
+
+        if (txt4.style.display === "none") {
+            txt4.style.display = "block";
+        } else {
+            txt4.style.display = "none";
+        }
+    }
+
+    function functionFive() {
+
+
+        if (txt5.style.display === "none") {
+            txt5.style.display = "block";
+        } else {
+            txt5.style.display = "none";
+        }
+    }
+
+    function functionSix() {
+
+
+        if (txt6.style.display === "none") {
+            txt6.style.display = "block";
+        } else {
+            txt6.style.display = "none";
+        }
+    }
+
+    function functionSeven() {
+
+
+        if (txt7.style.display === "none") {
+            txt7.style.display = "block";
+        } else {
+            txt7.style.display = "none";
+        }
+
+
+    }
+
+    function functionEight() {
+
+
+        if (txt8.style.display === "none") {
+            txt8.style.display = "block";
+        } else {
+            txt8.style.display = "none";
+        }
+
+    }
+
+    function functionNine() {
+
+
+        if (txt9.style.display === "none") {
+            txt9.style.display = "block";
+        } else {
+            txt9.style.display = "none";
+        }
+
+    }
+
+
+    function functionTen() {
+
+
+        if (txt10.style.display === "none") {
+            txt10.style.display = "block";
+        } else {
+            txt10.style.display = "none";
+        }
+
+    }
+
+    function functionEleven() {
+
+
+        if (txt11.style.display === "none") {
+            txt11.style.display = "block";
+        } else {
+            txt11.style.display = "none";
+        }
+
+    }
+
+    function functionTwelve() {
+
+
+        if (txt12.style.display === "none") {
+            txt12.style.display = "block";
+        } else {
+            txt12.style.display = "none";
+        }
+
+    }
+</script>
+</html>
